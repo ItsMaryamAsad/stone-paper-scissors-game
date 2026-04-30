@@ -1,6 +1,6 @@
 const score = JSON.parse(localStorage.getItem('score')) ||{
   wins: 0,
-  looses: 0,
+  losses: 0,
   ties: 0
 };
 
@@ -83,7 +83,7 @@ function playGame(playerMove){
     score.wins += 1;
   }
   else if(result === 'You Lose'){
-    score.looses += 1;
+    score.losses += 1;
   }
   else if(result === 'Tie'){
     score.ties += 1;
@@ -103,7 +103,7 @@ function playGame(playerMove){
 
 function updateScore(){
   document.querySelector('.js_score')
-  .innerHTML = `Wins ${score.wins} , Looses ${score.looses} , Ties ${score.ties}`;
+  .innerHTML = `Wins ${score.wins} , Losses ${score.losses} , Ties ${score.ties}`;
 }
 
 function pickComputerMove(){
