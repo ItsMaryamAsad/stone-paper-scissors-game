@@ -3,7 +3,7 @@
 A responsive and interactive **Stone Paper Scissors** game built using core web technologies. This project demonstrates fundamental front-end development skills, including DOM manipulation, event handling, game logic implementation, and persistent state management using browser storage.
 
 ## 🌐 Live Demo
-👉 https://your-username.github.io/stone-paper-scissors-game/
+👉 https://itsmaryamasad.github.io/stone-paper-scissors-game/
 
 ## 📌 Overview
 
